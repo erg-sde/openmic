@@ -58,3 +58,6 @@ gem "bcrypt", "~> 3.1"
 
 # Added at 2017-10-04 12:11:30 -0400 by wiz:
 gem "bootstrap-sass", "~> 3.3"
+
+# Added at 2017-10-04 14:51:45 -0400 by wiz:
+gem "hirb", "~> 0.7.3"

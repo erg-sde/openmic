@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = "Welcome to Open Mic!"
+      flash[:success] = "Welcome to Open Mic"
       # This should eventually link to the event show page.
       redirect_to @user
     else
