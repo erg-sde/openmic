@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Added at 2017-10-04 11:32:09 -0400 by wiz:
 gem "bcrypt", "~> 3.1"
+
+# Added at 2017-10-04 12:11:30 -0400 by wiz:
+gem "bootstrap-sass", "~> 3.3"
