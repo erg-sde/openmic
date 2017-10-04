@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
 
 
+
+
   root 'application#home'
   get 'sessions/new'
   get 'venue/new'
+    get 'events/new'
 
   resources :users
   resources  :venue
@@ -13,6 +16,7 @@ Rails.application.routes.draw do
 
   get  '/venue_signup',  to: 'venue#new'
   post '/venue_signup',  to: 'venue#create'
+  delete '/venue_logout',  to: 'sessions#destroy'
 
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'

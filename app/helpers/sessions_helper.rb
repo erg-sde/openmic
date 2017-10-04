@@ -23,7 +23,7 @@ module SessionsHelper
 ###
 ###
   def venue_log_in(user)
-    session[:user_id] = user.id
+    session[:venue_id] = user.id
   end
 
 # Returns the current logged-in user (if any).
