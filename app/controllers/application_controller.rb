@@ -4,6 +4,8 @@ class ApplicationController < ActionController::Base
   def home
     if logged_in?
       redirect_to current_user
+    elsif venue_logged_in?
+      redirect_to current_venue
     else
       render 'static_pages/home'
     end
