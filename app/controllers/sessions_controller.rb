@@ -2,8 +2,10 @@ class SessionsController < ApplicationController
   def new
   end
 
+
+
   def create
-    if params[:venue]
+    if params[:venue] = 1
       venue = Venue.find_by(email: params[:session][:email].downcase)
       if venue && venue.authenticate(params[:session][:password])
         venue_log_in venue
