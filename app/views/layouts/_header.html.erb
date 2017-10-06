@@ -2,12 +2,14 @@
 <div class="container">
   <%= link_to "OPEN MIC", root_path , id: "logo" %>
   <nav>
-    <ul class="nav navbar-nav navbar-right"
+    <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to "Find an Event", events_path %></li>
       <% if logged_in? %>
       <li><%= link_to "Account", current_user %></li>
       <li><%= link_to "Log out", logout_path, method: :delete %> </li>
       <% elsif venue_logged_in?%>
       <li><%= link_to "Venue Account", current_venue %></li>
+      <li><%= link_to "Add an event", newevent_path %></li>
       <li><%= link_to "Log out", venue_logout_path, method: :delete %> </li>
       <%else %>
       <li><%= link_to "Log in", login_path %></li>

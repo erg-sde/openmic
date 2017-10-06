@@ -2,16 +2,14 @@
 
  <%= @venue.email %>
 
-
-
- <% @events.each do |event| %>
-
- <h2><%= event.name %></h2>
-
-
+<% if @events.nil? %>
+    <h1> Add a new event and you'll find them here.</h1>
+<% else %>
+    <h1> Your Upcoming Events </h1>
+  <% @events.each do |event| %>
+    <h2><%= link_to event.name, event %></h2>
+  <% end %>
 <% end %>
-
- <h1> Add a new event and you'll find them here.</h1>
 
 
 

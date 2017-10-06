@@ -9,6 +9,12 @@ class EventsController < ApplicationController
      @event = Event.find(params[:id])
   end
 
+  def index
+    @events = Event.all
+    render 'index'
+  end
+
+
   def create
     if venue_logged_in?
       @event = Event.new(event_params)
