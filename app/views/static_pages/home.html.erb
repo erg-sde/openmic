@@ -7,4 +7,15 @@
 
   <%= link_to "Sign up now!", signup_path , class: "btn btn-lg btn-primary" %>
   <%= link_to "Venue Sign Up!", venue_signup_path , class: "btn btn-lg btn-primary" %>
+
+
+
+  <em><%= notice %></em><br>
+<% if current_user %>
+  Welcome <%= current_user.name %> you have successfully signed in!<br>
+  <%= link_to "Sign out", logout_path %>
+<% else %>
+  You are so not signed in.<br>
+  <%= link_to "Sign in with Google", google_login_path %><br>
+<% end %>
 </div>

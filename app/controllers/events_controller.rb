@@ -6,13 +6,13 @@ class EventsController < ApplicationController
 
 
   def show
-     @event = Event.find(params[:event])
+     @event = Event.find(params[:id])
   end
 
   def create
     if venue_logged_in?
       @event = Event.new(event_params)
-      @event.venue = params[:id]
+      @event.venue_id = session[:venue_id]
       if @event.save
         flash[:success] = "Event Saved"
         # This should eventually link to the event show page.

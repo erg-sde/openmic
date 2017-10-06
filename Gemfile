@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+gem 'dotenv-rails', groups: [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
@@ -61,3 +61,10 @@ gem "bootstrap-sass", "~> 3.3"
 
 # Added at 2017-10-04 14:51:45 -0400 by wiz:
 gem "hirb", "~> 0.7.3"
+
+# Added at 2017-10-05 13:59:57 -0400 by wiz:
+gem "httparty", "~> 0.15.6"
+
+
+
+gem 'omniauth-google-oauth2'

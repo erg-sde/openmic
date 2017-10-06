@@ -1,18 +1,16 @@
 Rails.application.routes.draw do
 
-
-
-
   root 'application#home'
   get 'sessions/new'
   get 'venue/new'
   get 'events/new'
 
   get'/newevent', to: 'events#new'
-  post '/events/new',  to: 'events#create'
+  post '/newevent',  to: 'events#create'
 
   resources :users
   resources  :venue
+  resources :events
 
   get  '/signup',  to: 'users#new'
   post '/signup',  to: 'users#create'
@@ -25,6 +23,10 @@ Rails.application.routes.draw do
   get    '/venue_login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
+
+
+get 'auth/:provider/callback' => 'sessions#create'
+get '/auth/google_oauth2', as: 'google_login'
 
 
 

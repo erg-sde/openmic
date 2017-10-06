@@ -8,4 +8,13 @@ class User < ApplicationRecord
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: { case_sensitive: false }
   has_secure_password
+
+
+  def self.create_from_google(auth)
+    User.create!(
+      google_id: auth['uid'],
+      email: auth['info']['email'],
+      password: '123456'
+    )
+  end
 end
