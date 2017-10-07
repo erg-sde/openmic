@@ -37,6 +37,7 @@ module SessionsHelper
 
    def venue_log_out
     session.delete(:venue_id)
+    session.delete(:venue)
     @current_venue = nil
   end
 end
