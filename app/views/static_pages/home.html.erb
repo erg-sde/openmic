@@ -16,6 +16,7 @@
   <%= link_to "Sign out", logout_path %>
 <% else %>
   You are so not signed in.<br>
-  <%= link_to "Sign in with Google", google_login_path %><br>
+  <%= link_to "Sign in with Google",  google_login_path %><br>
+  <%= link_to "Sign in with Facebook",  'auth/facebook' %><br>
 <% end %>
 </div>

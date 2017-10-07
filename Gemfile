@@ -68,3 +68,4 @@ gem "httparty", "~> 0.15.6"
 
 
 gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook'

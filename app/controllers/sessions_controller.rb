@@ -5,19 +5,25 @@ class SessionsController < ApplicationController
 
 
   def create
-    if auth = request.env["omniauth.auth"]
+    auth = request.env["omniauth.auth"]
+    provider = auth[:provider]
+    if provider == "google_oauth2"
       user = User.find_by(google_id: auth['uid']) || User.create_from_google(auth)
+      log_in user
+      redirect_to user
+    elsif provider == "facebook"
+      user = User.find_by(facebook_id: auth['uid']) || User.create_from_facebook(auth)
       log_in user
       redirect_to user
     else
       if params[:venue] = 1
         venue = Venue.find_by(email: params[:session][:email].downcase)
         if venue && venue.authenticate(params[:session][:password])
-        venue_log_in venue
-        redirect_to venue
+          venue_log_in venue
+          redirect_to venue
         else
-        flash[:danger] = 'Invalid email/password combination'
-        render 'new'
+          flash[:danger] = 'Invalid email/password combination'
+          render 'new'
         end
       else
         user = User.find_by(email: params[:session][:email].downcase)
@@ -32,10 +38,10 @@ class SessionsController < ApplicationController
     end
   end
 
+
   def destroy
     log_out
     venue_log_out
     redirect_to root_url
   end
-
 end
