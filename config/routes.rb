@@ -27,7 +27,7 @@ Rails.application.routes.draw do
 
   get    '/login',   to: 'sessions#new'
   get    '/venue_login',   to: 'sessions#new'
-  post   '/login',   to: 'sessions#create'
+  post   '/login',   to: 'sessions#create_venue'
   delete '/logout',  to: 'sessions#destroy'
 
 
