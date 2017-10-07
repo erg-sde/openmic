@@ -2,4 +2,21 @@
 <p>venue: <%= link_to @event.venue.email, @event.venue %><p>
 
 
-<p> add a button here to create an event user </p>
+<% unless @event.user_events.any? {|user_event| user_event.user = current_user} %>
+  <%= form_tag user_events_path, method: 'post'%>
+  <%= hidden_field_tag 'event_id', @event.id %>
+  <%= submit_tag "sign up for this event" %>
+  <%else%>
+  <h2> You are already Signed Up </h2>
+  <p> Add a button to destroy user_event here </p>
+  <% end %>
+
+<h2> Users Signed Up for this Event </h2>
+
+<% if @user_events.nil? %>
+    <h1> No One has signed up yet</h1>
+<% else %>
+  <% @user_events.each do |user_event| %>
+    <h2><%= link_to user_event.user.email, user_event.user %></h2>
+  <% end %>
+<% end %>
