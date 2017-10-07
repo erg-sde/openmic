@@ -1,9 +1,15 @@
  <h1> <%= @event.name %> </h1>
 <p>venue: <%= link_to @event.venue.email, @event.venue %><p>
 
-<%= form_tag user_events_path, method: 'post'%>
-<%= hidden_field_tag 'event_id', @event.id %>
-<%= submit_tag "Join" %>
+
+<% unless @event.user_events.any? {|user_event| user_event.user = current_user} %>
+  <%= form_tag user_events_path, method: 'post'%>
+  <%= hidden_field_tag 'event_id', @event.id %>
+  <%= submit_tag "sign up for this event" %>
+  <%else%>
+  <h2> You are already Signed Up </h2>
+  <p> Add a button to destroy user_event here </p>
+  <% end %>
 
 <h2> Users Signed Up for this Event </h2>
 
