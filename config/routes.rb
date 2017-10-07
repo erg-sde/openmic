@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
   get 'user_events/new'
+  # post  '/join' to: 'user_events#create'
+  # get '/join' to: 'user_events#show'
 
   root 'application#home'
   get 'sessions/new'
