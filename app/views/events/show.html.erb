@@ -11,12 +11,16 @@
   <p> Add a button to destroy user_event here </p>
   <% end %>
 
-<h2> Users Signed Up for this Event </h2>
 
-<% if @user_events.nil? %>
-    <h1> No One has signed up yet</h1>
-<% else %>
-  <% @user_events.each do |user_event| %>
-    <h2><%= link_to user_event.user.email, user_event.user %></h2>
+
+
+<% if venue_logged_in? && current_venue = @event.venue%>
+  <% if @user_events.nil? %>
+      <h1> No One has signed up yet</h1>
+  <% else %>
+    <h2> Users Signed Up for this Event </h2>
+    <% @user_events.each do |user_event| %>
+      <h2><%= link_to user_event.user.email, user_event.user %></h2>
+    <% end %>
   <% end %>
 <% end %>

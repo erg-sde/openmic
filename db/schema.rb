@@ -43,7 +43,6 @@ ActiveRecord::Schema.define(version: 20171007182432) do
     t.string "password_digest"
     t.string "google_id"
     t.string "facebook_id"
-    t.index [nil], name: "index_users_on_network_id"
   end
 
   create_table "venues", force: :cascade do |t|
