@@ -12,7 +12,7 @@ class EventsController < ApplicationController
 
   def index
     @events = Event.all
-    render 'index'
+    @searchevents = Event.search(params[:search])
   end
 
 
