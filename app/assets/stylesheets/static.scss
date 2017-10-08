@@ -1,0 +1,30 @@
+.application.home  {
+  font-family: tahoma;
+  background-image: url('/images/microphone.jpeg');
+  min-height: calc(100vh - 60px);
+  background-position: center;
+  background-size: cover;
+  .welcome-msg {
+    font-size: 36px;
+    position: absolute;
+    top: 80px;
+    color: white;
+  }
+  .welcome-msg1 {
+    font-size: 26px;
+    position: absolute;
+    top: 200px;
+    color: white;
+    vertical-height: 1;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    .margin-top-15 {
+      margin-top: 15px;
+    }
+  }
+}
