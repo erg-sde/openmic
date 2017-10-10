@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20171009231516) do
+=======
+ActiveRecord::Schema.define(version: 20171010012315) do
+>>>>>>> 8dac824f8692136d5515b2acaf1493bd4d2cb195
 
   create_table "events", force: :cascade do |t|
     t.string "name"
@@ -43,6 +47,8 @@ ActiveRecord::Schema.define(version: 20171009231516) do
     t.string "password_digest"
     t.string "google_id"
     t.string "facebook_id"
+    t.float "latitude"
+    t.float "longitude"
     t.index [nil], name: "index_users_on_network_id"
   end
 
