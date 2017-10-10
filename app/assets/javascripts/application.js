@@ -16,6 +16,6 @@
 //= require turbolinks
 //= require_tree .
 
-//navigator.geolocation.getCurrentPosition(function(position) {
-  //do_something(position.coords.latitude, position.coords.longitude);
-//});
+navigator.geolocation.getCurrentPosition(function(position) {
+  console.log(position.coords.latitude, position.coords.longitude);
+});

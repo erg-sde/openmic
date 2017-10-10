@@ -13,8 +13,7 @@ class VenueController < ApplicationController
       @venue = Venue.new(venue_params)
       if @venue.save
         flash[:success] = "Welcome to Open Mic Venues"
-        # This should eventually link to the event show page.
-        redirect_to @venue
+              redirect_to login_path
       else
         render 'new'
       end
