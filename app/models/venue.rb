@@ -10,9 +10,14 @@ class Venue < ApplicationRecord
   has_secure_password
 
 
-  geocoded_by :address   # can also be an IP address
-  after_validation :geocode          # auto-fetch coordinates
-  # reverse_geocoded_by :latitude, :longitude
-  # after_validation :reverse_geocode  # auto-fetch address
+  attr_accessor :raw_address
 
+  geocoded_by :raw_address
+  after_validation -> {
+    self.address = self.raw_address
+    geocode
+  }, if: ->(obj){ obj.raw_address.present? and obj.raw_address != obj.address }
+
+  after_validation :reverse_geocode, unless: ->(obj) { obj.raw_address.present? },
+                   if: ->(obj){ obj.latitude.present? and obj.latitude_changed? and obj.longitude.present? and obj.longitude_changed? }
 end

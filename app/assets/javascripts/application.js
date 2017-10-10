@@ -16,6 +16,12 @@
 //= require turbolinks
 //= require_tree .
 
+
 navigator.geolocation.getCurrentPosition(function(position) {
   console.log(position.coords.latitude, position.coords.longitude);
 });
+
+
+// $.post( "ajax/test.html", function( data ) {
+//   $( ".result" ).html( data );
+// });

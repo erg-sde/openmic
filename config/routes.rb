@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get'/newevent', to: 'events#new'
   post '/newevent',  to: 'events#create'
-
+  post '/checkin' to: 'event#check_in'
 
   resources :users
   resources :venue

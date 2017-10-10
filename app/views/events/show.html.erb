@@ -12,7 +12,8 @@
   <% end %>
 
 
-
+  <%= form_tag , method: 'post'%>
+  <%= submit_tag "Check in to this event" %>
 
 <% if venue_logged_in? && current_venue = @event.venue%>
   <% if @user_events.nil? %>
@@ -20,7 +21,7 @@
   <% else %>
     <h2> Users Signed Up for this Event </h2>
     <% @user_events.each do |user_event| %>
-      <h2><%= link_to user_event.user.email, user_event.user %></h2>
+      <li><%= link_to user_event.user.email, user_event.user %>,order <%=user_event.order%></li>
     <% end %>
   <% end %>
 <% end %>
