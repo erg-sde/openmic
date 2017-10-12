@@ -1,0 +1,370 @@
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::VERSION
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OPENSSL_VERSION
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OPENSSL_LIBRARY_VERSION
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OPENSSL_VERSION_NUMBER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OPENSSL_FIPS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Config::DEFAULT_CONFIG_FILE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::Signer
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::TEXT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::NOCERTS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::NOSIGS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::NOCHAIN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::NOINTERN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::NOVERIFY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::DETACHED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::BINARY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::NOATTR
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKCS7::NOSMIMECAP
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKey::RSA::PKCS1_PADDING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKey::RSA::SSLV23_PADDING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKey::RSA::NO_PADDING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKey::RSA::PKCS1_OAEP_PADDING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::PKey::EC::NAMED_CURVE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ExtConfig::HAVE_TLSEXT_HOST_NAME
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ExtConfig::TLS_DH_anon_WITH_AES_256_GCM_SHA384
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_OFF
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_CLIENT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_SERVER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_BOTH
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_NO_AUTO_CLEAR
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_NO_INTERNAL_LOOKUP
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_NO_INTERNAL_STORE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::SESSION_CACHE_NO_INTERNAL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::SSLContext::METHODS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ExtConfig::OPENSSL_NO_SOCK
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::VERIFY_NONE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::VERIFY_PEER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::VERIFY_FAIL_IF_NO_PEER_CERT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::VERIFY_CLIENT_ONCE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_MICROSOFT_SESS_ID_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NETSCAPE_CHALLENGE_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_SSLREF2_REUSE_CERT_TYPE_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_MICROSOFT_BIG_SSLV3_BUFFER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_MSIE_SSLV2_RSA_PADDING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_SSLEAY_080_CLIENT_DH_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_TLS_D5_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_TLS_BLOCK_PADDING_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_DONT_INSERT_EMPTY_FRAGMENTS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_ALL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_SINGLE_ECDH_USE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_SINGLE_DH_USE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_EPHEMERAL_RSA
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_CIPHER_SERVER_PREFERENCE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_TLS_ROLLBACK_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_SSLv2
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_SSLv3
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_TLSv1
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_TLSv1_1
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_TLSv1_2
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_TICKET
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NO_COMPRESSION
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_PKCS1_CHECK_1
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_PKCS1_CHECK_2
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NETSCAPE_CA_DN_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::SSL::OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::Name::DEFAULT_OBJECT_TYPE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::Name::OBJECT_TYPE_TEMPLATE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::Name::COMPAT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::Name::RFC2253
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::Name::ONELINE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::Name::MULTILINE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_OK
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_UNABLE_TO_GET_ISSUER_CERT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_UNABLE_TO_GET_CRL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_UNABLE_TO_DECRYPT_CERT_SIGNATURE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_UNABLE_TO_DECRYPT_CRL_SIGNATURE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_UNABLE_TO_DECODE_ISSUER_PUBLIC_KEY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CERT_SIGNATURE_FAILURE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CRL_SIGNATURE_FAILURE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CERT_NOT_YET_VALID
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CERT_HAS_EXPIRED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CRL_NOT_YET_VALID
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CRL_HAS_EXPIRED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_ERROR_IN_CERT_NOT_BEFORE_FIELD
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_ERROR_IN_CERT_NOT_AFTER_FIELD
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_ERROR_IN_CRL_LAST_UPDATE_FIELD
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_ERROR_IN_CRL_NEXT_UPDATE_FIELD
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_OUT_OF_MEM
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_DEPTH_ZERO_SELF_SIGNED_CERT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_SELF_SIGNED_CERT_IN_CHAIN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_UNABLE_TO_VERIFY_LEAF_SIGNATURE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CERT_CHAIN_TOO_LONG
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CERT_REVOKED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_INVALID_CA
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_PATH_LENGTH_EXCEEDED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_INVALID_PURPOSE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CERT_UNTRUSTED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_CERT_REJECTED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_SUBJECT_ISSUER_MISMATCH
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_AKID_SKID_MISMATCH
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_AKID_ISSUER_SERIAL_MISMATCH
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_KEYUSAGE_NO_CERTSIGN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_ERR_APPLICATION_VERIFICATION
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_CRL_CHECK
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_CRL_CHECK_ALL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_IGNORE_CRITICAL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_X509_STRICT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_ALLOW_PROXY_CERTS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_POLICY_CHECK
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_EXPLICIT_POLICY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_INHIBIT_ANY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_INHIBIT_MAP
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_NOTIFY_POLICY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_EXTENDED_CRL_SUPPORT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_USE_DELTAS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_CHECK_SS_SIGNATURE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_TRUSTED_FIRST
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::V_FLAG_NO_ALT_CHAINS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_SSL_CLIENT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_SSL_SERVER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_NS_SSL_SERVER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_SMIME_SIGN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_SMIME_ENCRYPT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_CRL_SIGN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_ANY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_OCSP_HELPER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::PURPOSE_TIMESTAMP_SIGN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_COMPAT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_SSL_CLIENT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_SSL_SERVER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_EMAIL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_OBJECT_SIGN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_OCSP_SIGN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_OCSP_REQUEST
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::TRUST_TSA
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::DEFAULT_CERT_AREA
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::DEFAULT_CERT_DIR
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::DEFAULT_CERT_FILE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::DEFAULT_CERT_DIR_ENV
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::DEFAULT_CERT_FILE_ENV
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::X509::DEFAULT_PRIVATE_DIR
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::RESPONSE_STATUS_INTERNALERROR
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::RESPONSE_STATUS_MALFORMEDREQUEST
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_NOSTATUS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::RESPONSE_STATUS_SIGREQUIRED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::RESPONSE_STATUS_SUCCESSFUL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::RESPONSE_STATUS_TRYLATER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_AFFILIATIONCHANGED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_CACOMPROMISE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_CERTIFICATEHOLD
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_CESSATIONOFOPERATION
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_KEYCOMPROMISE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_REMOVEFROMCRL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_SUPERSEDED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::RESPONSE_STATUS_UNAUTHORIZED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::REVOKED_STATUS_UNSPECIFIED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOCERTS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOINTERN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOSIGS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOCHAIN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOVERIFY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOEXPLICIT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOCASIGN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NODELEGATED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOCHECKS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::TRUSTOTHER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::RESPID_KEY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::NOTIME
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::V_CERTSTATUS_GOOD
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::V_CERTSTATUS_REVOKED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::V_CERTSTATUS_UNKNOWN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::V_RESPID_NAME
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::OCSP::V_RESPID_KEY
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_RSA
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_DSA
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_DH
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_RAND
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_CIPHERS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_DIGESTS
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_ALL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::Engine::METHOD_NONE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::UNIVERSAL_TAG_NAME
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::EOC
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::BOOLEAN
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::INTEGER
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::BIT_STRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::OCTET_STRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::NULL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::OBJECT
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::OBJECT_DESCRIPTOR
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::EXTERNAL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::REAL
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::ENUMERATED
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::EMBEDDED_PDV
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::UTF8STRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::RELATIVE_OID
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::SEQUENCE
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::SET
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::NUMERICSTRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::PRINTABLESTRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::T61STRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::VIDEOTEXSTRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::IA5STRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::UTCTIME
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::GENERALIZEDTIME
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::GRAPHICSTRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::ISO64STRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::GENERALSTRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::UNIVERSALSTRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::CHARACTER_STRING
+/usr/lib/x86_64-linux-gnu/ruby/2.4.0/openssl.so: warning: already initialized constant OpenSSL::ASN1::BMPSTRING
+/usr/lib/ruby/2.4.0/openssl/pkey.rb:8: warning: already initialized constant OpenSSL::PKey::DH::DEFAULT_1024
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/pkey.rb:8: warning: previous definition of DEFAULT_1024 was here
+/usr/lib/ruby/2.4.0/openssl/pkey.rb:17: warning: already initialized constant OpenSSL::PKey::DH::DEFAULT_2048
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/pkey.rb:17: warning: previous definition of DEFAULT_2048 was here
+/usr/lib/ruby/2.4.0/openssl/pkey.rb:30: warning: already initialized constant OpenSSL::PKey::DEFAULT_TMP_DH_CALLBACK
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/pkey.rb:30: warning: previous definition of DEFAULT_TMP_DH_CALLBACK was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::AES
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of AES was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::CAST5
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of CAST5 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::BF
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of BF was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::DES
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of DES was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::IDEA
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of IDEA was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::RC2
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of RC2 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::RC4
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of RC4 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::RC5
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:24: warning: previous definition of RC5 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:28: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: already initialized constant OpenSSL::Cipher::AES128
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:33: warning: previous definition of AES128 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:28: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: already initialized constant OpenSSL::Cipher::AES192
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:33: warning: previous definition of AES192 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:28: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: already initialized constant OpenSSL::Cipher::AES256
+/var/lib/gems/2.4.0/gems/openssl-2.0.6/lib/openssl/cipher.rb:33: warning: previous definition of AES256 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:64: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:64: warning: constant OpenSSL::Cipher::Cipher is deprecated
+[WARNING] Could not load command "rails/commands/server/server_command". Error: superclass mismatch for class Cipher.
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:64:in `<class:Cipher>'
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:16:in `<module:OpenSSL>'
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:15:in `<top (required)>'
+/usr/lib/ruby/2.4.0/openssl.rb:17:in `require'
+/usr/lib/ruby/2.4.0/openssl.rb:17:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/key_generator.rb:2:in `require'
+/var/lib/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/key_generator.rb:2:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/application.rb:4:in `require'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/application.rb:4:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails.rb:12:in `require'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails.rb:12:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands/server/server_command.rb:4:in `require'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands/server/server_command.rb:4:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/behavior.rb:82:in `require'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/behavior.rb:82:in `block (2 levels) in lookup'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/behavior.rb:78:in `each'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/behavior.rb:78:in `block in lookup'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/behavior.rb:77:in `each'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command/behavior.rb:77:in `lookup'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command.rb:68:in `find_by_namespace'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command.rb:42:in `invoke'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands.rb:16:in `<top (required)>'
+/home/wiz/Desktop/wyncode/openmic/bin/rails:9:in `require'
+/home/wiz/Desktop/wyncode/openmic/bin/rails:9:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `load'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `call'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client.rb:30:in `run'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/bin/spring:49:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `load'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `<top (required)>'
+/usr/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+/usr/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+/home/wiz/Desktop/wyncode/openmic/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::AES
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of AES was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::CAST5
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of CAST5 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::BF
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of BF was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::DES
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of DES was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::IDEA
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of IDEA was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::RC2
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of RC2 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::RC4
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of RC4 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:18: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: already initialized constant OpenSSL::Cipher::RC5
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:24: warning: previous definition of RC5 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:28: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: already initialized constant OpenSSL::Cipher::AES128
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: previous definition of AES128 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:28: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: already initialized constant OpenSSL::Cipher::AES192
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: previous definition of AES192 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:28: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: already initialized constant OpenSSL::Cipher::AES256
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:33: warning: previous definition of AES256 was here
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:64: warning: constant OpenSSL::Cipher::Cipher is deprecated
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:64: warning: constant OpenSSL::Cipher::Cipher is deprecated
+rails aborted!
+TypeError: superclass mismatch for class Cipher
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:64:in `<class:Cipher>'
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:16:in `<module:OpenSSL>'
+/usr/lib/ruby/2.4.0/openssl/cipher.rb:15:in `<top (required)>'
+/usr/lib/ruby/2.4.0/openssl.rb:17:in `require'
+/usr/lib/ruby/2.4.0/openssl.rb:17:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/key_generator.rb:2:in `require'
+/var/lib/gems/2.4.0/gems/activesupport-5.1.4/lib/active_support/key_generator.rb:2:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/application.rb:4:in `require'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/application.rb:4:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails.rb:12:in `require'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails.rb:12:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/all.rb:1:in `require'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/all.rb:1:in `<top (required)>'
+/home/wiz/Desktop/wyncode/openmic/config/application.rb:3:in `require'
+/home/wiz/Desktop/wyncode/openmic/config/application.rb:3:in `<top (required)>'
+/home/wiz/Desktop/wyncode/openmic/Rakefile:4:in `require_relative'
+/home/wiz/Desktop/wyncode/openmic/Rakefile:4:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/rake-12.1.0/lib/rake/rake_module.rb:29:in `load'
+/var/lib/gems/2.4.0/gems/rake-12.1.0/lib/rake/rake_module.rb:29:in `load_rakefile'
+/var/lib/gems/2.4.0/gems/rake-12.1.0/lib/rake/application.rb:688:in `raw_load_rakefile'
+/var/lib/gems/2.4.0/gems/rake-12.1.0/lib/rake/application.rb:97:in `block in load_rakefile'
+/var/lib/gems/2.4.0/gems/rake-12.1.0/lib/rake/application.rb:179:in `standard_exception_handling'
+/var/lib/gems/2.4.0/gems/rake-12.1.0/lib/rake/application.rb:96:in `load_rakefile'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:20:in `block in perform'
+/var/lib/gems/2.4.0/gems/rake-12.1.0/lib/rake/application.rb:179:in `standard_exception_handling'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands/rake/rake_command.rb:18:in `perform'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/command.rb:46:in `invoke'
+/var/lib/gems/2.4.0/gems/railties-5.1.4/lib/rails/commands.rb:16:in `<top (required)>'
+/home/wiz/Desktop/wyncode/openmic/bin/rails:9:in `require'
+/home/wiz/Desktop/wyncode/openmic/bin/rails:9:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `load'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `call'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/client.rb:30:in `run'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/bin/spring:49:in `<top (required)>'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `load'
+/var/lib/gems/2.4.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `<top (required)>'
+/usr/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+/usr/lib/ruby/2.4.0/rubygems/core_ext/kernel_require.rb:68:in `require'
+/home/wiz/Desktop/wyncode/openmic/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'

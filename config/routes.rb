@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
 
   get 'user_events/new'
-  # post  '/join' to: 'user_events#create'
-  # get '/join' to: 'user_events#show'
+  post '/check_in', to: 'users#check_in'
 
   root 'application#home'
   get 'sessions/new'
@@ -14,12 +13,13 @@ Rails.application.routes.draw do
 
 
   resources :users
-  resources  :venue
+  resources :venue
   resources :events
   resources :user_events
 
   get  '/signup',  to: 'users#new'
   post '/signup',  to: 'users#create'
+
 
   get  '/venue_signup',  to: 'venue#new'
   post '/venue_signup',  to: 'venue#create'
@@ -30,13 +30,7 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create_venue'
   delete '/logout',  to: 'sessions#destroy'
 
-
-
-
-get 'auth/:provider/callback' => 'sessions#create'
-get '/auth/google_oauth2', as: 'google_login'
-
-
-
+  get 'auth/:provider/callback' => 'sessions#create'
+  get '/auth/google_oauth2', as: 'google_login'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

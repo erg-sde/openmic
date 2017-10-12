@@ -15,3 +15,34 @@
 //= require bootstrap/dist/js/bootstrap.js
 //= require turbolinks
 //= require_tree .
+
+//
+navigator.geolocation.getCurrentPosition(function(position) {
+  console.log(position.coords.latitude, position.coords.longitude);
+  window.lat = position.coords.latitude;
+  window.long = position.coords.longitude;
+});
+//
+$(document).on('turbolinks:load', function() {
+  $('#check-in-form').submit(function(e) {
+    e.preventDefault();
+    var form = e.target;
+    console.dir(form);
+    form[2].value = window.long;
+    form[3].value = window.lat;
+    form.submit();
+  });
+});
+// let position = navigator.geolocation.getCurrentPosition(function(position) {
+// return {latitude: position.coords.latitude, longitude: position.coords.longitude}
+// });
+// //
+// // // position()
+// //
+// console.log(position;
+//
+//
+// $('check_in').on('click', () => {
+//   // $.post( '/check_in',
+//   //         data: position());
+// });

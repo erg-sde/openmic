@@ -69,3 +69,6 @@ gem "httparty", "~> 0.15.6"
 
 gem 'omniauth-google-oauth2'
 gem 'omniauth-facebook'
+
+# Added at 2017-10-09 16:32:08 -0400 by wiz:
+gem "geocoder", "~> 1.4"

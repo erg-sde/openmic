@@ -1,16 +1,19 @@
 <h1> Find Event </h1>
 
-<% @events.each do |event| %>
-  <h2><%= link_to event.name, event %></h2>
-<% end %>
-
-
-
-
-
 <%= form_tag events_path, :method => 'get' do %>
 <p>
     <%= text_field_tag :search, params[:search] %>
     <%= submit_tag "Search", :name => nil %>
 </p>
+<% end %>
+
+
+<% if @results.nil? # no search %>
+  Search for whatever you'd like.
+<% elsif @results.empty? # no results %>
+  Try your search again.
+<% else %>
+  <% @results.each do |result| %>
+    <p><%= link_to result.name, result %>, <%=result.venue.email%></p>
+  <% end %>
 <% end %>

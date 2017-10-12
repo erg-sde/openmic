@@ -20,11 +20,25 @@ class UsersController < ApplicationController
     end
   end
 
+  def check_in
+    @event = Event.find(params[:event_id])
+    @distance =  @event.venue.distance_to( [params[:lat].to_f, params[:long].to_f])
+    @userevent = UserEvent.where(["user_id = ? and event_id = ?", session[:user_id], @event.id])
+    if !@userevent.nil? && @distance < 1
+      @userevent.update(arrival: Time.now)
+      flash[:success] = "a value was returned"
+      redirect_back fallback_location: root_path
+    else
+      flash[:danger] = 'Looks like you have yet to arrive'
+      redirect_back fallback_location: root_path
+    end
+  end
+
   private
 
-   def user_params
-     params.require(:user).permit(:name, :email, :password,
-                                  :password_confirmation)
-   end
+ def user_params
+   params.require(:user).permit(:name, :email, :password,
+                                :password_confirmation)
+ end
 
 end
