@@ -1,0 +1,21 @@
+.venue.new {
+
+  font-family: tahoma;
+  background-image: url('/images/venuesignup.jpg');
+  min-height: calc(100vh - 60px);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background: black;
+      opacity: 0.2;
+  }
+
+
+}

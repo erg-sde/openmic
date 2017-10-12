@@ -8,6 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <%= link_to "OPEN MIC", root_path , id: "logo", class: 'navbar-brand' %>
+      <%= link_to "Events", events_path , id: "logo", class: 'navbar-brand' %>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -40,8 +41,8 @@
           <% elsif venue_logged_in?%>
           <li><%= link_to "Log out", venue_logout_path, method: :delete %> </li>
           <% else %>
-            <%= link_to login_path do %>
-              <i class="fa fa-sign-in fa-2x" aria-hidden="true"></i>
+            <!-- <%= link_to login_path do %>
+              <i class="fa fa-sign-in fa-2x" aria-hidden="true"></i> -->
             <%end%>
           <%end%>
         </li>

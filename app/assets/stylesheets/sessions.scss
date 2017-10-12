@@ -1,3 +1,50 @@
 .sessions.new {
-  background: red;
+  font-family: tahoma;
+  background-image: url('/images/background.jpeg');
+  min-height: calc(100vh - 60px);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      background: black;
+      opacity: 0.1;
+}
+.login-msg {
+  color: white;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  form {
+  height: 500px;
+  }
+  label {
+  color: white;
+  }
+
+  .margin-top-15 {
+    margin-top: 15px;
+    z-index: 100;
+  }
+
+  .venue_sign_up {
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 300px;
+    // top: 50px;
+
+
+  }
+}
 }
