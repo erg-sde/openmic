@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   get 'user_events/new'
+  post '/check_in', to: 'users#check_in'
 
   root 'application#home'
   get 'sessions/new'
@@ -9,7 +10,7 @@ Rails.application.routes.draw do
 
   get'/newevent', to: 'events#new'
   post '/newevent',  to: 'events#create'
-  post '/checkin' to: 'event#check_in'
+
 
   resources :users
   resources :venue
@@ -18,6 +19,7 @@ Rails.application.routes.draw do
 
   get  '/signup',  to: 'users#new'
   post '/signup',  to: 'users#create'
+
 
   get  '/venue_signup',  to: 'venue#new'
   post '/venue_signup',  to: 'venue#create'

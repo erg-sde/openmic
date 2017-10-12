@@ -9,6 +9,10 @@ class EventsController < ApplicationController
      @event = Event.find(params[:id])
      @user_events = UserEvent.where(event_id: @event.id)
 
+     if @event.user_events.any? {|user_event| user_event.user = current_user}
+       @userevent = UserEvent.find_by(["user_id = ? and event_id = ?", session[:user_id], @event.id])
+       @arrived = !@userevent.arrival.nil?
+     end
   end
 
   def index
@@ -32,6 +36,7 @@ class EventsController < ApplicationController
       redirect_to login_path
     end
   end
+
 
   private
 

@@ -2,18 +2,24 @@
 <p>venue: <%= link_to @event.venue.email, @event.venue %><p>
 
 
-<% unless @event.user_events.any? {|user_event| user_event.user = current_user} %>
-  <%= form_tag user_events_path, method: 'post'%>
-  <%= hidden_field_tag 'event_id', @event.id %>
-  <%= submit_tag "sign up for this event" %>
+  <% if @userevent %>
+    <% if @arrived%>
+      <h3> Looks like you're checked in </h3>
+    <% else %>
+      <%= form_tag '/check_in', id: 'check-in-form' do %>
+        <%= hidden_field_tag 'long'%>
+        <%= hidden_field_tag 'lat'%>
+        <%= hidden_field_tag 'event_id', @event.id %>
+        <%= submit_tag "Check in to this event", id: "check_in" %>
+        <p> Add a button to destroy user_event here </p>
+        <h3> You're signed up for this event. Sign in here once the event starts to add yourself to the list. </h3>
+      <% end %>
+    <% end %>
   <%else%>
-  <h2> You are already Signed Up </h2>
-  <p> Add a button to destroy user_event here </p>
-  <% end %>
-
-
-  <%= form_tag , method: 'post'%>
-  <%= submit_tag "Check in to this event" %>
+    <%= form_tag user_events_path, method: 'post'%>
+    <%= hidden_field_tag 'event_id', @event.id %>
+    <%= submit_tag "sign up for this event" %>
+  <%end%>
 
 <% if venue_logged_in? && current_venue = @event.venue%>
   <% if @user_events.nil? %>
