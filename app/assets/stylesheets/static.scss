@@ -4,28 +4,23 @@
 .application.home  {
   font-family: tahoma;
   background-image: url('/images/microphone.jpeg');
+  // opacity: 0.5;
   min-height: calc(100vh - 60px);
   background-position: center;
   background-size: cover;
   position: relative;
-  &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      top: 0;
-      background: black;
-      opacity: 0.2;
-  }
+
   .welcome-msg {
     font-size: 60px;
+    font-weight: bold;
     position: absolute;
     top: 80px;
     color: white;
+    opacity: 1;
   }
   .welcome-msg1 {
     font-size: 40px;
+    font-weight: bold;
     position: absolute;
     top: 200px;
     color: white;
@@ -37,9 +32,44 @@
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    .margin-top-15 {
-      margin-top: 15px;
-      z-index: 100;
-    }
+    // .margin-top-15 {
+    //   margin-top: 15px;
+    //   z-index: 100
+  // }
+      .facebook, .google_plus, .venue_button{
+
+        color: white;
+        height: 48px;
+        font-size: 20px;
+        margin-top: 20px;
+
+        line-height: 20px;
+        span{
+          padding: 0 20px;
+        }
+
+        .fa{
+          padding: 10px;
+        }
+
+      }
+      .google_plus{
+        background-color: #dc4a38;
+        padding-right: 20px;
+        }
+        .facebook{
+                background-color: #3c66c4;
+                padding-right: 6px;
+
+        }
+        .venue_button{
+          background-color:  #337ab7;
+          width: 275px;
+          padding:10px;
+          span{
+            margin: 20px;
+          }
+        }
+
   }
 }

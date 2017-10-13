@@ -3,7 +3,7 @@
   background-image: url('/images/background.jpeg');
   min-height: calc(100vh - 60px);
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   position: relative;
   &:before {
       content: '';

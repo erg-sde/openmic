@@ -6,16 +6,27 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      top: 0;
-      background: black;
-      opacity: 0.2;
+  // &:before {
+  //     content: '';
+  //     position: absolute;
+  //     left: 0;
+  //     right: 0;
+  //     bottom: 0;
+  //     top: 0;
+  //     background: black;
+  //     opacity: 0.2;
+  // }
+  .title {
+    color: white;
+    opacity: 1;
+    text-shadow: none;
+    text-decoration: none;
   }
 
 
+  .row {
+    label {
+      color: white;
+    }
+  }
 }

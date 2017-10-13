@@ -1,0 +1,14 @@
+.users.show {
+  font-family: tahoma;
+  min-height: calc(100vh - 60px);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+.outer-container {
+  background-image: url('/images/event_holding_iphone_up.jpeg');
+  height: 100vh;
+//     background: grey;
+    opacity: 0.8;
+    background-size: 100%;
+  }
+}
