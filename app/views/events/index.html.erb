@@ -16,7 +16,7 @@
   Try your search again.
 <% else %>
   <% @results.each do |result| %>
-    <div class="events"><%= link_to result.name, result %>, <%=result.venue.email%></div>
+    <div class="events"><%= link_to result.name, result %> at  <%=result.venue.name%></div>
   <% end %>
 <% end %>
 </div>

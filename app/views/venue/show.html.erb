@@ -1,4 +1,5 @@
-<h1><%= @venue.email %></h1>
+<h1><%= @venue.name %></h1>
+<h3><%= @venue.email %></h3>
 <%= image_tag "http://maps.googleapis.com/maps/api/staticmap?center=#{@venue.latitude},#{@venue.longitude}&markers=#{@venue.latitude},#{@venue.longitude}&zoom=12&size=300x200&key=AIzaSyD0JudhxVsaIVYpcKcSJJaRAkXVaLBGmmY",
                 class: 'img-fluid img-rounded', alt: "#{@venue.email} on the map"%>
 <% if @events.nil? %>
