@@ -1,5 +1,7 @@
 <h1> <%= @event.name %> </h1>
-<p>venue: <%= link_to @event.venue.name, @event.venue %><p>
+<h3> <%= link_to @event.venue.name, @event.venue %></h3>
+  <h4> Starts : <%= @event.start %> </h4>
+  <h4> Ends : <%= @event.end %> </h4>
 
   <!-- <p> The time is <%= Time.now%></p>
   <p> The event starts <%= @event.start %> </p>
