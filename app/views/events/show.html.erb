@@ -1,11 +1,27 @@
- <h1> <%= @event.name %> </h1>
-<p>venue: <%= link_to @event.venue.email, @event.venue %><p>
+<h1> <%= @event.name %> </h1>
+<h3> <%= link_to @event.venue.name, @event.venue %></h3>
+  <h4> Starts : <%= @event.start %> </h4>
+  <h4> Ends : <%= @event.end %> </h4>
 
+  <!-- <p> The time is <%= Time.now%></p>
+  <p> The event starts <%= @event.start %> </p>
+  <p> The event ends <%= @event.end %> </p> -->
 
+<% if venue_logged_in? && current_venue = @event.venue%>
+  <% if @user_events.nil? %>
+    <h1> No One has signed up yet</h1>
+  <% else %>
+    <h2> Users Signed Up for this Event </h2>
+    <% @user_events.each do |user_event| %>
+      <li><%= link_to user_event.user.email, user_event.user %>,order <%=user_event.order%></li>
+    <% end %>
+  <% end %>
+<% else %>
   <% if @userevent %>
     <% if @arrived%>
       <h3> Looks like you're checked in </h3>
-    <% else %>
+      <p> add a button to un-check-in here </p>
+    <% elsif Time.now > @event.start.localtime && Time.now < @event.end.localtime%>
       <%= form_tag '/check_in', id: 'check-in-form' do %>
         <%= hidden_field_tag 'long'%>
         <%= hidden_field_tag 'lat'%>
@@ -14,20 +30,16 @@
         <p> Add a button to destroy user_event here </p>
         <h3> You're signed up for this event. Sign in here once the event starts to add yourself to the list. </h3>
       <% end %>
+    <% elsif Time.now < @event.start%>
+      <p> You're signed up, but the event hasn't started yet, come back here to check in once the event starts.</p>
+    <% elsif Time.now > @event.end%>
+      <p> the event is over. </p>
+    <% else %>
+      <p> you should have never come here. </p>
     <% end %>
   <%else%>
     <%= form_tag user_events_path, method: 'post'%>
-    <%= hidden_field_tag 'event_id', @event.id %>
-    <%= submit_tag "sign up for this event" %>
-  <%end%>
-
-<% if venue_logged_in? && current_venue = @event.venue%>
-  <% if @user_events.nil? %>
-      <h1> No One has signed up yet</h1>
-  <% else %>
-    <h2> Users Signed Up for this Event </h2>
-    <% @user_events.each do |user_event| %>
-      <li><%= link_to user_event.user.email, user_event.user %>,order <%=user_event.order%></li>
-    <% end %>
-  <% end %>
+      <%= hidden_field_tag 'event_id', @event.id %>
+      <%= submit_tag "sign up for this event" %>
+    <%end%>
 <% end %>
