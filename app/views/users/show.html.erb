@@ -1,8 +1,12 @@
  <% if @user_events.nil? %>
      <h1> Sign Up for a new event and you'll find them here.</h1>
  <% else %>
+     <div class="message1">
      <h1> Your Upcoming Events </h1>
+   </div>
+   <div class="eventsyling">
    <% @user_events.each do |user_event| %>
      <h2><%= link_to user_event.event.name, user_event.event %></h2>
+   </div>
    <% end %>
  <% end %>

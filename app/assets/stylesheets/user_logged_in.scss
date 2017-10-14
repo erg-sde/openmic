@@ -8,7 +8,25 @@
   background-image: url('/images/event_holding_iphone_up.jpeg');
   height: 100vh;
 //     background: grey;
-    opacity: 0.8;
+    opacity: 1;
     background-size: 100%;
   }
+.message1 {
+    color: white;
+  }
+  element.style {
+}
+.list-card-v2 .list-card__date {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    color: #45494E;
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px 0 0;
+}
 }
