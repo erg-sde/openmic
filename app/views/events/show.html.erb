@@ -1,7 +1,8 @@
 <h1> <%= @event.name %> </h1>
 <h3> <%= link_to @event.venue.name, @event.venue %></h3>
-  <h4> Starts : <%= @event.start %> </h4>
-  <h4> Ends : <%= @event.end %> </h4>
+  <h4>  <%= @event.start.localtime.strftime(" on %m/%d/%Y") %> </h4>
+  <h4>  <%= @event.start.localtime.strftime("From %I:%M%p") %>
+    <%= @event.end.localtime.strftime("To %I:%M%p") %> </h4>
 
   <!-- <p> The time is <%= Time.now%></p>
   <p> The event starts <%= @event.start %> </p>
@@ -12,9 +13,15 @@
     <h1> No One has signed up yet</h1>
   <% else %>
     <h2> Users Signed Up for this Event </h2>
-    <% @user_events.each do |user_event| %>
-      <li><%= link_to user_event.user.email, user_event.user %>,order <%=user_event.order%></li>
-    <% end %>
+    <div class="row">
+      <div class="col-md-5 col-md-offset-4 sortable">
+      <% @user_events.each do |user_event| %>
+        <div class="panel panel-default userevent" data-id="<%= user_event.id %>">
+          Priority: <%=user_event.order%> ,<%= link_to user_event.user.email, user_event.user %>
+        </div>
+      <% end %>
+      </div>
+    </div>
   <% end %>
 <% else %>
   <% if @userevent %>

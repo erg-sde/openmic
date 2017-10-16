@@ -15,7 +15,9 @@ Rails.application.routes.draw do
   resources :users
   resources :venue
   resources :events
-  resources :user_events
+  resources :user_events do
+    put :sort, on: :collection
+  end
 
   get  '/signup',  to: 'users#new'
   post '/signup',  to: 'users#create'

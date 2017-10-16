@@ -11,7 +11,7 @@ class EventsController < ApplicationController
 
      if @event.user_events.any? {|user_event| user_event.user = current_user}
        @userevent = UserEvent.find_by(["user_id = ? and event_id = ?", session[:user_id], @event.id])
-       @arrived = !@userevent.arrival.nil?
+      #  @arrived = !@userevent.arrival.nil?
      end
   end
 
@@ -38,6 +38,12 @@ class EventsController < ApplicationController
     end
   end
 
+  def sort
+    params[:order].each do |key,value|
+      UserEvent.find(value[:id]).update_attribute(:order,value[:position])
+    end
+    render :nothing => true
+  end
 
   private
 
