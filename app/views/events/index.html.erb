@@ -1,6 +1,5 @@
   <div class="search">
   <h1> Find Event </h1>
-
   <%= form_tag events_path, :method => 'get' do %>
 <p>
     <%= text_field_tag :search, params[:search] %>
@@ -8,15 +7,22 @@
 </p>
 <% end %>
 
-
-
 <% if @results.nil? # no search %>
   Search for whatever you'd like.
 <% elsif @results.empty? # no results %>
   Try your search again.
 <% else %>
   <% @results.each do |result| %>
-    <div class="events"><%= link_to result.name, result %> at  <%=result.venue.name%></div>
+  <div class="col-md-12 event-container">
+    <div class="col-md-4">
+      <img class="img-responsive" src="https://thumb1.shutterstock.com/display_pic_with_logo/109564/361373843/stock-photo-vintage-white-silhouette-microphone-icon-against-red-curtain-backdrop-mic-on-empty-theatre-stage-361373843.jpg" alt="">
+    </div>
+    <div class="col-md-12">
+        <p>Description</p>
+        <%= link_to result.name, result %>
+    </div>
+  </div>
   <% end %>
 <% end %>
+</div>
 </div>
