@@ -1,23 +1,25 @@
 <div class="search">
   <div class="col-md-12 event-container1">
-    <div class="col-md-12">
-      <div class="description-container1">
+    <!-- <div class="col-md-12"> -->
+    <div class="description-container1">
 
 
-<% if @user_events.nil? %>
-     <h1> Sign Up for a new event and you'll find them here.</h1>
- <% else %>
+      <% if @user_events.nil? %>
+        <h1> Sign Up for a new event and you'll find them here.</h1>
+      <% else %>
+        <h1> Your Upcoming Events </h1>
 
+        <div class="col-md-12">
+          <% @user_events.each do |user_event| %>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <h2><%= link_to user_event.event.name, user_event.event %></h2>
+            </li>
+          </ul>
 
-     <h1> Your Upcoming Events </h1>
-   </div>
-   <% @user_events.each do |user_event| %>
-
-
-     <h2><%= link_to user_event.event.name, user_event.event %></h2>
-   </div>
- </div>
+      <% end %>
+        </div>
+      </div>
+    </div>
 </div>
-
-   <% end %>
- <% end %>
+<% end %>
