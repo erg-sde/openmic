@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+// Place all the styles related to the events controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.sortable-placeholder {
+  border: 1px dashed #CCC;
+  background-color: #f9f9f9;
+  height: 80px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.sortable {
+  display: list-item;
+}
+.userevent {
+  border-style: solid;
+  height: 80px;
+    width: 40%;
+  margin-bottom: 10px;
+=======
 .events.show {
   min-height: calc(100vh - 60px);
   background-position: center;
@@ -16,4 +38,5 @@ h1 {
   margin-top: 0px;
 
   }
+>>>>>>> ec4a4de6ad5e266869e7036fb3a36f781bc1d313
 }

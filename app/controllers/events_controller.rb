@@ -38,6 +38,12 @@ class EventsController < ApplicationController
     end
   end
 
+  def sort
+    params[:order].each do |key,value|
+      UserEvent.find(value[:id]).update_attribute(:order,value[:position])
+    end
+    render :nothing => true
+  end
 
   private
 
