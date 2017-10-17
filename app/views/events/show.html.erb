@@ -13,14 +13,12 @@
     <h1> No One has signed up yet</h1>
   <% else %>
     <h2> Users Signed Up for this Event </h2>
-    <div class="row">
-      <div class="col-md-5 col-md-offset-4 sortable">
+      <div class="col-md-5 col-md-offset-3 sortable">
       <% @user_events.each do |user_event| %>
         <div class="panel panel-default userevent" data-id="<%= user_event.id %>">
-          Priority: <%=user_event.order%> ,<%= link_to user_event.user.email, user_event.user %>
+          <%=user_event.order%>  <%= link_to user_event.user.email, user_event.user %>
         </div>
       <% end %>
-      </div>
     </div>
   <% end %>
 <% else %>

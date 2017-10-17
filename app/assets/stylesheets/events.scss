@@ -7,7 +7,7 @@
   border: 1px dashed #CCC;
   background-color: #f9f9f9;
   height: 80px;
-  width: 40%;
+  width: 80%;
   margin-bottom: 10px;
 }
 
@@ -17,7 +17,8 @@
 .userevent {
   border-style: solid;
   height: 80px;
-    width: 40%;
+    width: 80%;
+    background-color: #f6f6f6;
   margin-bottom: 10px;
 }
 .events.show {
@@ -25,6 +26,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  background-image: url('/images/single_mic.jpg');
 }
 
 h1 {
