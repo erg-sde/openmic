@@ -9,7 +9,7 @@
         <%= f.label :name %>
         <%= f.text_field :name, class: 'form-control' %>
         <%= f.label :start %>
-        <%= f.text_field :start, class: 'form-control', id: 'start_picker'%>
+        <%= f.datetime_field :start, class: 'form-control', id: 'start_picker'%>
         <%= f.label :end %>
         <%= f.datetime_field :end, class: 'form-control', id: 'end_picker'%>      
         <%= f.submit "Create Event", class: "btn btn-primary" %>

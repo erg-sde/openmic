@@ -24,6 +24,7 @@ class EventsController < ApplicationController
 
   def create
     if venue_logged_in?
+      
       @event = Event.new(event_params)
       @event.venue_id = session[:venue_id]
       byebug
