@@ -7,6 +7,6 @@
 <% else %>
     <h2> Events at at this Venue </h2>
   <% @events.each do |event| %>
-    <li><%= link_to event.name, event %> Starts at <%= event.start.localtime %></li>
+    <li><%= link_to event.name, event %> Starts at <%= event.start %></li>
   <% end %>
 <% end %>

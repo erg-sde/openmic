@@ -1,9 +1,10 @@
 <h1> <%= @event.name %> </h1>
 <h3> <%= link_to @event.venue.name, @event.venue %></h3>
+<% if @event.start %>
   <h4>  <%= @event.start.localtime.strftime(" on %m/%d/%Y") %> </h4>
-  <h4>  <%= @event.start.localtime.strftime("From %I:%M%p") %>
+  <h4>  <%=@event.start.localtime.strftime("From %I:%M%p") %>
     <%= @event.end.localtime.strftime("To %I:%M%p") %> </h4>
-
+<% end %>
   <!-- <p> The time is <%= Time.now%></p>
   <p> The event starts <%= @event.start %> </p>
   <p> The event ends <%= @event.end %> </p> -->

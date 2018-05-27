@@ -72,3 +72,15 @@ gem 'omniauth-facebook'
 
 # Added at 2017-10-09 16:32:08 -0400 by wiz:
 gem "geocoder", "~> 1.4"
+
+
+
+# Added at 2018-05-19 14:21:40 -0400 by wiz:
+gem "jquery-rails", "~> 4.3"
+
+# Added at 2018-05-19 14:26:38 -0400 by wiz:
+gem "jquery-ui-rails", "~> 6.0"
+
+
+gem 'momentjs-rails', '>= 2.9.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'

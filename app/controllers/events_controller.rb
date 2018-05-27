@@ -26,9 +26,10 @@ class EventsController < ApplicationController
     if venue_logged_in?
       @event = Event.new(event_params)
       @event.venue_id = session[:venue_id]
+      byebug
       if @event.save
         flash[:success] = "Event Saved"
-        # This should eventually link to the event show page.
+        # This should eventually link to the event show page
         redirect_to @event
       else
         render 'new'

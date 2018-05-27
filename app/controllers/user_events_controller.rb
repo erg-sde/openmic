@@ -5,8 +5,8 @@ class UserEventsController < ApplicationController
   end
 
   def create
-    @user_event = UserEvent.new(event_id: params[:event_id], user_id: current_user.id)
-
+    @user_event = UserEvent.new(event_id: params[:event_id], 
+                                user_id: current_user.id)
 
     if @user_event.save
       flash[:success] = "You signed up!"
@@ -15,7 +15,5 @@ class UserEventsController < ApplicationController
       redirect_to events_path
     end
   end
-
-
 
 end

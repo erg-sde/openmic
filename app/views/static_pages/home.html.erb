@@ -1,12 +1,13 @@
-<body class="current-page <%= controller_name %> <%= controller.action_name%>">
-<h1 class="welcome-msg">Welcome to Open Mic</h1>
-<h3 class="welcome-msg1">Amplify Your Voice!</h3>
-<%= link_to google_login_path, class: "google_plus" do %>
-  <i class='fa fa-google-plus-square'></i><span>Sign in with Google</span>
-<% end %>
-<%= link_to 'auth/facebook', class: "facebook" do %>
-<i class='fa fa-facebook'></i><span>Sign in with Facebook</span>
-<% end %>
-<%= link_to login_path , class: "venue_button" do %>
-<i class='fa'></i><span>Venue Portal</span>
-<% end %>
+
+<div class="container">
+	<div class="jumbotron">	
+		<h1 class="">
+			Open Mic
+		</h1>
+		<div class="btn-group btn-group-justified">		
+			<%= link_to "Google",google_login_path,  class: "btn btn-danger"%>
+			<%= link_to "Facebook",'auth/facebook',  class: "btn btn-primary"%>
+			<%= link_to "Venues", login_path ,  class: "btn btn-success" %>
+		</div>
+	</div>
+</div>

@@ -10,9 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery3
+//= require bootstrap-sprockets
+//= require moment
+//= require bootstrap-datetimepicker
 //= require rails-ujs
-//= require jquery/dist/jquery.js
-//= require bootstrap/dist/js/bootstrap.js
 //= require turbolinks
 //= require_tree .
 
@@ -46,3 +48,6 @@ $(document).on('turbolinks:load', function() {
 //   // $.post( '/check_in',
 //   //         data: position());
 // });
+
+
+
